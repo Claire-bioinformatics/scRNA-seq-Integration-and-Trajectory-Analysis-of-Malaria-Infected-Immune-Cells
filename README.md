@@ -1,6 +1,6 @@
 # scRNA-seq-Integration-and-Trajectory-Analysis-of-Malaria-Infected-Immune-Cells
 
-# Overview
+## Overview
 
 End-to-end single-cell analysis combining bioinformatics and unsupervised machine learning to uncover immune dynamics during malaria infection.
 
