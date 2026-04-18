@@ -6,9 +6,9 @@ End-to-end single-cell analysis combining bioinformatics and unsupervised machin
 
 This project integrates scRNA-seq data from wild-type and malaria-infected mice using Scanpy and BBKNN, identifying cell populations, infection-driven transcriptional changes, and dynamic cellular trajectories.
 
-### Key Results Overview
+### Key Results Overview:
 
-### UMAP & Annotation
+#### UMAP & Annotation
 ![UMAP](figures/umap.png)
 
 ### Key highlights:
