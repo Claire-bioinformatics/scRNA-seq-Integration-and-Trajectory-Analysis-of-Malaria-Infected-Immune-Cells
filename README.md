@@ -12,3 +12,5 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 - Identified 14 immune cell clusters and annotated key populations (e.g., Ms4a1+ B cells, progenitor-like cells)
 - Performed robust differential expression analysis across 4 methods
 - Reconstructed cellular trajectories using PAGA and PHATE, revealing a continuous and cyclic immune response
+
+### Key insight: PHATE embedding reveals a looping trajectory, suggesting dynamic immune state transitions during infection.
