@@ -11,6 +11,8 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 #### UMAP & Annotation
 ![UMAP](figures/umap.png)
 
+**UMAP revelas 14 immune cell clusters and key populations (e.g., Ms4a1+ B cells, progenitor-like cells).**
+
 #### Pseudotime (PHATE Trajectory)
 ![PHATE Trajectory](figures/phate.png)
 
@@ -21,15 +23,6 @@ Bottom: Pseudotime trajectories using two biologically relevant starting points:
 - Right: Ms4a1+ B cells (cluster 1)  
 
 Notably, PHATE reveals a **circular/looping trajectory**, suggesting cyclic immune state transitions rather than a simple linear progression.
-
-### Key highlights:
-
-- Integrated multi-sample single-cell data (WT vs infected) with batch correction
-- Identified 14 immune cell clusters and annotated key populations (e.g., Ms4a1+ B cells, progenitor-like cells)
-- Performed robust differential expression analysis across 4 methods
-- Reconstructed cellular trajectories using PAGA and PHATE, revealing a continuous and cyclic immune response
-
-#### Key insight: PHATE embedding reveals a looping trajectory, suggesting dynamic immune state transitions during infection.
 
 ## Dataset
 - Platform: 10x Genomics 3' scRNA-seq
