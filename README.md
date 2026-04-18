@@ -19,6 +19,6 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 - Platform: 10x Genomics 3' scRNA-seq
 - Organism: Mouse (malaria infection model)
 - Samples:
--- WT1 (control)
--- Infected1
--- Infected2
+           - WT1 (control)
+           - Infected1
+           - Infected2
