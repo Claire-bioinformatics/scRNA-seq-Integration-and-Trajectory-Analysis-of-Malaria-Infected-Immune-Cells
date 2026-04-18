@@ -14,6 +14,14 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 #### Pseudotime (PHATE Trajectory)
 ![PHATE Trajectory](figures/phate.png)
 
+**PHATE-based trajectory analysis reveals dynamic immune cell transitions during malaria infection.**  
+Top: 14 Leiden clusters projected onto PHATE embedding.  
+Bottom: Pseudotime trajectories using two biologically relevant starting points:  
+- Left: progenitor-like cells (cluster 3)  
+- Right: Ms4a1+ B cells (cluster 1)  
+
+Notably, PHATE reveals a **circular/looping trajectory**, suggesting cyclic immune state transitions rather than a simple linear progression.
+
 ### Key highlights:
 
 - Integrated multi-sample single-cell data (WT vs infected) with batch correction
