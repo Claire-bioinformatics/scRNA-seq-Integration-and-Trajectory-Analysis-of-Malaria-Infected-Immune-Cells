@@ -4,7 +4,7 @@
 
 End-to-end single-cell analysis combining bioinformatics and unsupervised machine learning to uncover immune dynamics during malaria infection.
 
-This project integrates scRNA-seq data from wild-type and malaria-infected mice using Scanpy and BBKNN, identifying cell populations, infection-driven transcriptional changes, and dynamic cellular trajectories.
+This project integrates scRNA-seq data from wild-type and malaria-infected mice using Scanpy, applying BBKNN and Harmony-based approaches for integration and differential expression analysis to identify cell populations, infection-driven transcriptional changes, and reconstruct dynamic cellular trajectories using graph-based and manifold learning methods, revealing complex and cyclic immune state transitions.
 
 ### Key Results Overview:
 
