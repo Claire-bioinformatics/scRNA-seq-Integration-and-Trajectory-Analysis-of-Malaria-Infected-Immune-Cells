@@ -8,12 +8,12 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 
 ### Key Results Overview:
 
-#### UMAP & Annotation
+### UMAP & Annotation
 ![UMAP](figures/umap.png)
 
 **UMAP revelas 14 immune cell clusters and key populations (e.g., Ms4a1+ B cells, progenitor-like cells).**
 
-#### Pseudotime (PHATE Trajectory)
+### Pseudotime (PHATE Trajectory)
 ![PHATE Trajectory](figures/phate.png)
 
 **PHATE-based trajectory analysis reveals dynamic immune cell transitions during malaria infection.**  
