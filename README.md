@@ -14,3 +14,11 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 - Reconstructed cellular trajectories using PAGA and PHATE, revealing a continuous and cyclic immune response
 
 #### Key insight: PHATE embedding reveals a looping trajectory, suggesting dynamic immune state transitions during infection.
+
+## Dataset
+- Platform: 10x Genomics 3' scRNA-seq
+- Organism: Mouse (malaria infection model)
+- Samples:
+WT1 (control)
+Infected1
+Infected2
