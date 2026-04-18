@@ -31,3 +31,47 @@ Notably, PHATE reveals a **circular/looping trajectory**, suggesting cyclic immu
   - WT1 (control)
   - Infected1
   - Infected2
+
+## Analysis Pipeline
+The workflow was implemented in Python using Scanpy, following best practices for single-cell analysis:
+### 1. Quality Control
+- Filtering cells based on:
+- Number of detected genes
+- Total counts per cell
+- Mitochondrial gene percentage
+- Removal of low-quality cells and potential doublets
+### 2. Preprocessing
+- Normalization and log-transformation
+- Identification of highly variable genes
+- Data scaling
+### 3. Dimensionality Reduction
+- Principal Component Analysis (PCA)
+### 4. Data Integration
+- Batch correction using BBKNN (Batch Balanced KNN) and Harmony
+- Integration of WT and infected samples into a shared space
+### 5. Clustering
+- Neighborhood graph construction
+- Leiden clustering (resolution = 0.50)
+- Identification of 14 distinct cell clusters
+### 6. Visualization
+- UMAP embedding
+- PHATE embedding (for improved global structure visualization)
+### 7. Cluster Annotation
+- Marker gene analysis used to identify major immune populations
+- Key markers:
+  - Ms4a1 → B cells
+  - Gata2, Tal1, Runx1, Mki67 → progenitor-like populations
+### 8. Differential Expression Analysis
+- Performed using multiple complementary approaches:
+- BBKNN-based differential expression
+- Pseudobulk methods
+- Harmony-based comparisons
+  - This allowed identification of robust and consistent infection-associated gene signatures.
+### 9. Trajectory Inference
+- Graph abstraction using PAGA
+- Pseudotime analysis projected onto:
+  - UMAP
+  - PHATE
+- Two biologically relevant starting points were explored:
+  - Cluster 3 (progenitor-like cells)
+  - Cluster 1 (Ms4a1+ B cells)
