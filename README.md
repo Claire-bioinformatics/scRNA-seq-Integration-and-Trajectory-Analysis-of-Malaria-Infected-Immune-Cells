@@ -11,6 +11,9 @@ This project integrates scRNA-seq data from wild-type and malaria-infected mice 
 #### UMAP & Annotation
 ![UMAP](figures/umap.png)
 
+#### Pseudotime (PHATE Trajectory)
+![PHATE Trajectory](figures/phate.png)
+
 ### Key highlights:
 
 - Integrated multi-sample single-cell data (WT vs infected) with batch correction
