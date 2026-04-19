@@ -123,3 +123,6 @@ The pipeline includes:
 - Differential expression analysis (multiple methods)
 - Trajectory and pseudotime inference
 - Biological interpretation of high-dimensional data
+
+## Summary
+This project demonstrates the ability to perform a complete single-cell analysis workflow, integrate multiple datasets, and extract biologically meaningful insights from complex transcriptomic data — skills directly relevant to computational biology and AI-driven genomics research.
