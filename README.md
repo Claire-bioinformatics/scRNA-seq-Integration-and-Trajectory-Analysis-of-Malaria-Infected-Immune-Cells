@@ -83,7 +83,7 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 - Infection alters immune cell composition
 ### Marker Gene Expression
 - Successful annotation of major immune cell types
-- Identification of progenitor-like populations and B cells
+- Identification of progenitor-like populations, B cells, T cells
 ### Differential Expression Robustness
 - Cross-method comparison (UpSet analysis) showed strong overlap
 - Confirms reliability of identified infection-related genes
