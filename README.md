@@ -92,3 +92,9 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 - PHATE embedding showed:
   - Smooth transitions between cell states
   - Circular/looping trajectory, suggesting dynamic immune processes
+
+## Biological Interpretation
+- Malaria infection induces significant remodeling of the immune landscape
+- Expansion of progenitor-like populations suggests active immune regeneration
+- Distinct transcriptional programs emerge under infection
+- Trajectory analysis indicates dynamic and potentially cyclic immune responses
