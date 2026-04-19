@@ -75,3 +75,21 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 - Two biologically relevant starting points were explored:
   - Cluster 3 (progenitor-like cells)
   - Cluster 1 (Ms4a1+ B cells)
+
+## Key Results
+
+### Cell Population Structure
+- 14 transcriptionally distinct clusters identified
+- Clear separation between control and infected conditions
+- Infection alters immune cell composition
+### Marker Gene Expression
+- Successful annotation of major immune cell types
+- Identification of progenitor-like populations and B cells
+### Differential Expression Robustness
+- Cross-method comparison (UpSet analysis) showed strong overlap
+- Confirms reliability of identified infection-related genes
+### Trajectory and Pseudotime Insights
+- PAGA revealed connectivity between immune populations
+- PHATE embedding showed:
+  - Smooth transitions between cell states
+  - Circular/looping trajectory, suggesting dynamic immune processes
