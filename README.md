@@ -98,3 +98,10 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 - Expansion of progenitor-like populations suggests active immune regeneration
 - Distinct transcriptional programs emerge under infection
 - Trajectory analysis indicates dynamic and potentially cyclic immune responses
+
+## Tools & Technologies
+- Python
+- Scanpy
+- BBKNN
+- PHATE
+- NumPy / Pandas / Matplotlib
