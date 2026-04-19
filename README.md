@@ -80,7 +80,6 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 
 ### Cell Population Structure
 - 14 transcriptionally distinct clusters identified
-- Clear separation between control and infected conditions
 - Infection alters immune cell composition
 ### Marker Gene Expression
 - Successful annotation of major immune cell types
