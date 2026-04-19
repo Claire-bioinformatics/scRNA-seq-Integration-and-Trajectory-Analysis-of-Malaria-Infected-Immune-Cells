@@ -105,3 +105,13 @@ The workflow was implemented in Python using Scanpy, following best practices fo
 - BBKNN
 - PHATE
 - NumPy / Pandas / Matplotlib
+
+## Reproducibility
+The full analysis workflow, including all code and outputs, is provided in the notebook PDF.
+
+The pipeline includes:
+- Data preprocessing
+- Integration
+- Clustering
+- Differential expression
+- Trajectory inference
