@@ -115,3 +115,11 @@ The pipeline includes:
 - Clustering
 - Differential expression
 - Trajectory inference
+
+## Key Skills Demonstrated
+- Single-cell RNA-seq analysis
+- Multi-sample data integration
+- Batch correction techniques
+- Differential expression analysis (multiple methods)
+- Trajectory and pseudotime inference
+- Biological interpretation of high-dimensional data
